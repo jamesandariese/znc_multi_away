@@ -1,0 +1,11 @@
+Multi Away Module
+
+Prevent your active IRC sessions from going away until all of your connected
+clients do so.
+
+v0.1 - Tested with a single network only, currently.
+       It is expected that it will turn all networks away if all clients
+       disconnect and otherwise, it will only turn individual networks
+       away.
+       Extraneous 306ing happens.
+       No 305s are sent by the module.
